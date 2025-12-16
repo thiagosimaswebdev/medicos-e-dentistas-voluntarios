@@ -1,0 +1,139 @@
+footer{
+    background-color: #0B0B0B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}   
+.hero{
+  //border: solid red;
+  display: flex;  
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #0B0B0B;
+  color: white;
+  padding: 4rem 12rem;
+   width: 100%;
+
+.boxlogo{
+    //border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 13vh;
+    width: 16rem;
+    
+    p{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    .boxlogotext{
+       // border: solid;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+   }
+}
+   .contat{
+    //border: solid;
+    display: flex;
+    flex-direction: column;
+    height: 10em;
+    justify-content: space-evenly;
+    h2{
+        font-size: 1rem;
+    }
+   .divcontat{
+   // border: solid;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    p{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+   }    
+ }
+
+ .redeSocial{
+        //border: solid;
+    display: flex;
+    flex-direction: column;
+    height: 10em;
+    justify-content: space-evenly;
+
+    h2{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+ }
+
+ .direitos{
+    border-top: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70rem;
+    height: 5rem;
+
+    p{
+        color: white;
+    }
+ }
+
+ @media (max-width: 790px) {
+  footer {
+    align-items: stretch;
+  }
+
+  .hero {
+    flex-direction: column; /* empilha as colunas */
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3rem 1.5rem; /* menos espaço lateral */
+    gap: 2.5rem;
+  }
+
+  .boxlogo {
+    width: 100%;
+    height: auto; /* remove altura fixa */
+    gap: 1rem;
+  }
+
+  .contat {
+    width: 100%;
+    height: auto;
+    gap: 0.8rem;
+  }
+
+  .redeSocial {
+    width: 100%;
+    height: auto;
+    gap: 0.6rem;
+  }
+
+  .direitos {
+    width: 100%; /* remove largura fixa */
+    height: auto;
+    padding: 1.5rem 1rem;
+    text-align: center;
+
+    p {
+      font-size: 0.8rem;
+      line-height: 1.4;
+    }
+  }
+}
+
