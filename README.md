@@ -133,4 +133,4 @@ Este projeto reforça o uso da tecnologia como ferramenta de transformação soc
 
 ---
 
-**Desenvolvido com amor por Thiago, especialmente para você ❤️**
+**Desenvolvido com carinho por Thiago**
